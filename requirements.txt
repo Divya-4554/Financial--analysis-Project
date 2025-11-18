@@ -1,3 +1,4 @@
+# CLI
 click>=8.1.8
 
 # CrewAI
@@ -34,8 +35,8 @@ pydantic==2.10.4
 jsonschema==4.22.0
 
 # Data & AI
-numpy==1.26.4
-pandas==2.2.2
+numpy==1.25.0
+pandas==2.1.1
 protobuf==4.25.3
 
 # LLM / Agents
@@ -47,17 +48,18 @@ langsmith==0.1.67
 httpx==0.27.0
 httpcore==1.0.2
 
-# Observability
+# Observability (Fixed versions)
 opentelemetry-api==1.30.0
 opentelemetry-sdk==1.30.0
 opentelemetry-exporter-otlp-proto-grpc==1.30.0
 opentelemetry-exporter-otlp-proto-http==1.30.0
-opentelemetry-instrumentation==0.50b0
-opentelemetry-instrumentation-asgi==0.50b0
-opentelemetry-instrumentation-fastapi==0.50b0
+opentelemetry-instrumentation==1.30.0
+opentelemetry-instrumentation-asgi==1.30.0
+opentelemetry-instrumentation-fastapi==1.30.0
 
 # Misc
 oauthlib==3.2.2
 pillow==10.3.0
 PyPDF2==3.0.0
 python-dotenv==1.0.0
+
